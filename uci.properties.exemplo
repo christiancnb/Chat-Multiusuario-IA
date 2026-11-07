@@ -1,0 +1,18 @@
+# Copie este arquivo para "uci.properties" (sem ".exemplo"), na MESMA pasta de onde você
+# roda o servidor, apague o "#" da opção desejada e reinicie o servidor.
+# Variáveis de ambiente, se existirem, têm prioridade sobre este arquivo.
+# NUNCA coloque este arquivo no Git (ele pode conter chave): já está no .gitignore.
+
+# --- Opção 1: Ollama (grátis, roda no seu computador, sem chave) ---
+#UCI_PROVIDER=ollama
+# modelo opcional (padrão: llama3.2:1b)
+#UCI_MODEL=llama3.2:1b
+
+# --- Opção 2: Groq (grátis na nuvem, precisa de chave gratuita) ---
+#UCI_PROVIDER=groq
+#UCI_API_KEY=cole-sua-chave-aqui
+
+# --- Opção 3: outro serviço compatível com o formato OpenAI ---
+#UCI_API_URL=https://endereco.do.servico/v1
+#UCI_MODEL=nome-do-modelo
+#UCI_API_KEY=sua-chave
